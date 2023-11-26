@@ -2,6 +2,25 @@
 
 This project is a React application that allows users to upload Excel files to a Firebase database and view the data in a sortable, filterable, and searchable table. The application uses various libraries for different functionalities.
 
+## Features
+
+- **File Upload**: Users can upload Excel files which are then stored in a database.
+- **Data Viewing**: The data from the uploaded Excel files can be viewed in a table format.
+- **Data Manipulation**: The table has features for sorting, filtering, and searching through the columns.
+
+## Libraries Used
+
+This project uses the following libraries:
+
+- `@emotion/react` and `@emotion/styled` for styling components.
+- `@mui/material` and `@mui/x-data-grid` for UI components and data grid functionality.
+- `firebase` for backend services.
+- `xlsx` for parsing and manipulating Excel files.
+- `typescript` for adding static type definitions and other features to JavaScript.
+- `react-scripts` for a modern web development environment.
+- `web-vitals` for measuring web vitals.
+- `@testing-library/react`, `@testing-library/jest-dom`, and `@testing-library/user-event` for testing the application.
+- `@types/jest`, `@types/node`, `@types/react`, and `@types/react-dom` for TypeScript type definitions.
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,26 +57,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Features
-
-- **File Upload**: Users can upload Excel files which are then stored in a database.
-- **Data Viewing**: The data from the uploaded Excel files can be viewed in a table format.
-- **Data Manipulation**: The table has features for sorting, filtering, and searching through the columns.
-
-## Libraries Used
-
-This project uses the following libraries:
-
-- `@emotion/react` and `@emotion/styled` for styling components.
-- `@mui/material` and `@mui/x-data-grid` for UI components and data grid functionality.
-- `firebase` for backend services.
-- `xlsx` for parsing and manipulating Excel files.
-- `typescript` for adding static type definitions and other features to JavaScript.
-- `react-scripts` for a modern web development environment.
-- `web-vitals` for measuring web vitals.
-- `@testing-library/react`, `@testing-library/jest-dom`, and `@testing-library/user-event` for testing the application.
-- `@types/jest`, `@types/node`, `@types/react`, and `@types/react-dom` for TypeScript type definitions.
 
 ## Learn More
 
