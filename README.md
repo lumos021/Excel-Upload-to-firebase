@@ -12,14 +12,11 @@ This project is a React application that allows users to upload Excel files to a
 
 This project uses the following libraries:
 
-- `@emotion/react` and `@emotion/styled` for styling components.
 - `@mui/material` and `@mui/x-data-grid` for UI components and data grid functionality.
 - `firebase` for backend services.
 - `xlsx` for parsing and manipulating Excel files.
 - `typescript` for adding static type definitions and other features to JavaScript.
 - `react-scripts` for a modern web development environment.
-- `web-vitals` for measuring web vitals.
-- `@testing-library/react`, `@testing-library/jest-dom`, and `@testing-library/user-event` for testing the application.
 - `@types/jest`, `@types/node`, `@types/react`, and `@types/react-dom` for TypeScript type definitions.
 ## Available Scripts
 
